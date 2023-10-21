@@ -14,8 +14,6 @@ namespace Zoo_Animals
         {
             Cat Bosse = new Cat("\t\t*~* miaow *~*", "cat", "black", "fish", 15, true);
 
-            //Rabbit Skuttan = new Rabbit("\t*~* chugs *~*", "rabbit", "white", "carrots", 9, true);
-
             Rabbit Skuttan = new Rabbit();
             Skuttan.AnimalInfo();
 
