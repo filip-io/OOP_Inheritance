@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace OOP_Inheritance.Animals
 {
+
     // Declaration of subclass Cat that inherits from base class Animal
 
     internal class Cat : Animal
@@ -23,7 +24,7 @@ namespace OOP_Inheritance.Animals
         }
 
 
-        // Default values if no parameters are set upon initialization of new object
+        // Default values if no values are set upon initialization of new object
 
         public Cat()
         {

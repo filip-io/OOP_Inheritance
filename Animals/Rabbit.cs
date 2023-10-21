@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOP_Inheritance.Animals
 {
+
     // Declaration of subclass Rabbit that inherits from base class Animal
 
     internal class Rabbit : Animal
@@ -21,7 +22,7 @@ namespace OOP_Inheritance.Animals
         }
 
 
-        // Default values if no parameters are set upon initialization of new object
+        // Default values if no values are set upon initialization of new object
 
         public Rabbit()
         {

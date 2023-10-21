@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace OOP_Inheritance.Animals
 {
+
     // Declaration of the base class
 
     internal class Animal
@@ -30,7 +31,7 @@ namespace OOP_Inheritance.Animals
         }
 
 
-        // Default values for the constructor if no parameters are set upon initialization of new objects
+        // Default values for the constructor if no values are set upon initialization of new objects
 
         public Animal()
         {

@@ -10,6 +10,7 @@ namespace OOP_Inheritance.Animals.Reptiles
 
     internal class Alligator : Reptile
     {
+
         // Declaration of a unique property
 
         public string ColorShade { get; set; }

@@ -10,6 +10,7 @@ namespace OOP_Inheritance.Animals.Reptiles
 
     internal class Reptile : Animal
     {
+
         // Declaration of a unique property
 
         public bool Coldblooded { get; set; }
@@ -42,7 +43,7 @@ namespace OOP_Inheritance.Animals.Reptiles
         }
 
 
-        // Method to print default vaules
+        // Method to print default values
 
         public void PrintDefaultValues()
         {
