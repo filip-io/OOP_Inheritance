@@ -34,7 +34,6 @@ namespace Zoo_Animals
             Reptile Pelle = new Reptile();
             Pelle.PrintDefaultValues();
 
-
             Console.ReadKey();  
         }
     }

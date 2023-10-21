@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 
 namespace OOP_Inheritance.Animals
 {
-
     // Declaration of the base class
 
     internal class Animal
@@ -17,7 +16,6 @@ namespace OOP_Inheritance.Animals
         protected string _color { get; set; }
         protected string _diet { get; set; }
         protected int _lifespan { get; set; }
-
 
 
         // Base class constructor used by inheriting classes

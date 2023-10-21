@@ -21,7 +21,6 @@ namespace OOP_Inheritance.Animals
         }
 
 
-
         // Default values if no parameters are set upon initialization of new object
 
         public Rabbit()

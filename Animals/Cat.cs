@@ -36,7 +36,6 @@ namespace OOP_Inheritance.Animals
         }
 
 
-
         // Unique method
 
         public void Chase()
