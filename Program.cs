@@ -6,7 +6,7 @@
 using OOP_Inheritance.Animals;
 using OOP_Inheritance.Animals.Reptiles;
 
-namespace Zoo_Animals
+namespace OOP_Inheritance
 {
     internal class Program
     {
