@@ -33,6 +33,10 @@ namespace Zoo_Animals
 
 
             Console.WriteLine();
+
+            Leifi.Move();
+
+            Console.WriteLine();
             Console.WriteLine();
 
 

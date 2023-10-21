@@ -55,7 +55,7 @@ namespace OOP_Inheritance.Animals
             Console.WriteLine($"The {_species} eats: {_diet}");
         }
 
-        public void Move()
+        public virtual void Move()
         {
             Console.WriteLine($"The {_species} is on the move.");
         }

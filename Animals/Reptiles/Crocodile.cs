@@ -27,5 +27,13 @@ namespace OOP_Inheritance.Animals.Reptiles
         {
             Console.WriteLine($"*The crocodile points it's {_snoutShape} snout at you and looks very hungry!*");
         }
+
+
+        // Overriding the Move() method from base class
+
+        public override void Move()
+        {
+            Console.WriteLine($"The {_species} is gliding through the water..");
+        }
     }
 }
