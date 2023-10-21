@@ -12,7 +12,7 @@ namespace OOP_Inheritance.Animals.Reptiles
     {
         // Declaration of a unique property
 
-        public string _snoutShape { get; set; }
+        protected string _snoutShape { get; set; }
 
         public Crocodile(string sound, string species, string color, string diet, int lifespan, bool coldblooded, string snoutshape)
             : base(sound, species, color, diet, lifespan, coldblooded)

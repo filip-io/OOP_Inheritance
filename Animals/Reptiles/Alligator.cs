@@ -13,12 +13,12 @@ namespace OOP_Inheritance.Animals.Reptiles
 
         // Declaration of a unique property
 
-        public string ColorShade { get; set; }
+        protected string _colorShade { get; set; }
 
         public Alligator(string sound, string species, string color, string diet, int lifespan, bool coldblooded, string colorShade)
             : base(sound, species, color, diet, lifespan, coldblooded)
         {
-            ColorShade = colorShade;
+            _colorShade = colorShade;
         }
 
 
@@ -26,7 +26,7 @@ namespace OOP_Inheritance.Animals.Reptiles
 
         public void LikesFreshWater()
         {
-            Console.WriteLine($"*The {ColorShade} alligator lurks in the flooded grasslands*");
+            Console.WriteLine($"*The {_colorShade} alligator lurks in the flooded grasslands*");
         }
     }
 }

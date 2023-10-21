@@ -13,7 +13,7 @@ namespace OOP_Inheritance.Animals
     {
         // Declaration of a unique property
 
-        public bool _bigFeeted { get; set; }
+        protected bool _bigFeeted { get; set; }
 
         public Rabbit(string sound, string species, string color, string diet, int lifespan, bool bigfeeted)
             : base(sound, species, color, diet, lifespan)

@@ -13,12 +13,12 @@ namespace OOP_Inheritance.Animals.Reptiles
 
         // Declaration of a unique property
 
-        public bool Coldblooded { get; set; }
+        protected bool _coldblooded { get; set; }
 
         public Reptile(string sound, string species, string color, string diet, int lifespan, bool coldblooded)
             : base(sound, species, color, diet, lifespan)
         {
-            Coldblooded = coldblooded;
+            _coldblooded = coldblooded;
         }
 
 
@@ -31,7 +31,7 @@ namespace OOP_Inheritance.Animals.Reptiles
             _color = "golden";
             _diet = "humans";
             _lifespan = 10000;
-            Coldblooded = true;
+            _coldblooded = true;
         }
 
 
@@ -53,7 +53,7 @@ namespace OOP_Inheritance.Animals.Reptiles
             Console.WriteLine($"It's {_color} scales sparkles!");
             Console.WriteLine($"The {_species} only want's to eat {_diet}.");
             Console.WriteLine($"It will continue to do so for at least {_lifespan:N0} years!");
-            Console.WriteLine($"It's {Coldblooded}! The {_species} needs the sun to heat up his blood!");
+            Console.WriteLine($"It's {_coldblooded}! The {_species} needs the sun to heat up his blood!");
         }
     }
 }

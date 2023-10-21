@@ -15,7 +15,7 @@ namespace OOP_Inheritance.Animals
 
         // Declaration of a unique property
 
-        public bool _evil { get; set; }
+        protected bool _evil { get; set; }
 
         public Cat(string sound, string species, string color, string diet, int lifespan, bool evil)
             : base(sound, species, color, diet, lifespan)
